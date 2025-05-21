@@ -125,7 +125,7 @@ namespace WebAPITest.Controllers
             }
         }
         [HttpPost("CheckOrderStatus")]
-        public async Task<IActionResult> CheckOrderStatus([FromBody]string app_trans_id)
+        public async Task<IActionResult> CheckOrderStatus(string app_trans_id)
         {
             try
             {
